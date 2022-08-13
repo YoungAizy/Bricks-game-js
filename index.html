@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="menu">
+        <button id="play">PLAY</button>
+        <button id="survival">SURVIVAL</button>
+    </div>
+    <div id="levels">
+        <button id="easy">EASY</button>
+        <button id="medium">MEDIUM</button>
+        <button id="hard">HARD</button>
+    </div>
+    
+    <canvas id="gameScreen" width="800" height="600" ></canvas>
+    <button id="returnToMenu">Back to Menu</button>
+
+    <script type="module" src="/js/index.js"></script>
+</body>
+</html>
