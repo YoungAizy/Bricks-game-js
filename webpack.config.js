@@ -2,6 +2,7 @@ const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
+    mode: 'production',
     entry: {
         main: path.resolve(__dirname, 'js/main.js'),
     },
